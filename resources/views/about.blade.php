@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate laborum omnis inventore, asperiores, reiciendis eaque facilis nostrum repellat earum quidem qui voluptates aliquid nesciunt, delectus nobis nam velit laudantium aperiam.
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<body class="bg-blue-500 text-white p-5 rounded-lg">
+    <div class="bg-blue-500 text-white p-5 rounded-lg">
+        Tailwind CSS Berhasil di Laravel!
+    </div>    
 </body>
 </html>
